@@ -1,0 +1,12 @@
+{
+    "version": "0.1.0",
+    "name": "com.istrong.cordova.baidupush",
+    "cordova_name": "BaiduPush",
+    "description": "BaiduPush plugin",
+    "license": "MIT",
+    "keywords": [
+        "istrong",
+        "baidupush"
+    ],
+    "engines": []
+}
