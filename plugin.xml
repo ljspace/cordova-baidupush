@@ -80,8 +80,6 @@
             <service
                 android:name="com.baidu.android.pushservice.CommandService"
                 android:exported="true" />
-            <!-- 在百度开发者中心查询应用的API Key -->
-            <meta-data android:name="api_key" android:value="INSERT YOUR OWN API_KEY HERE" />
         </config-file>
 
         <source-file src="src/android/BaiduPush.java" target-dir="src/com/istrong/cordova/baidupush" />
