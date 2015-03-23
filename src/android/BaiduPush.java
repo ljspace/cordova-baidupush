@@ -47,7 +47,7 @@ public class BaiduPush extends CordovaPlugin
 	        PluginResult pluginResult = new PluginResult(PluginResult.Status.NO_RESULT);
             pluginResult.setKeepCallback(true);
             callbackContext.sendPluginResult(pluginResult);
-	        PushManager.startWork(cordova.getActivity().getApplicationContext(), 0, args.getString(0));
+	        PushManager.startWork(cordova.getActivity().getApplicationContext(), PushConstants.LOGIN_TYPE_API_KEY, args.getString(0));
             return true;
 		}
 		return false;
