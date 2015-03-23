@@ -11,6 +11,7 @@ BaiduPush.prototype.init = function(api_key)
 
 BaiduPush.prototype.successFn = function(info)
 {
+    console.log(info);
     if(info){
         baiduPush.registered = true;
         cordova.fireDocumentEvent("cloudPushRegistered", info);

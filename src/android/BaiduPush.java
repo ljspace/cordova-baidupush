@@ -24,7 +24,6 @@ public class BaiduPush extends CordovaPlugin
 	{
 		if(action.equals("init"))
 		{
-			
 			this.pushCallbackContext = callbackContext;
 			super.initialize(cordova, webView);
 	        IntentFilter intentFilter = new IntentFilter();
